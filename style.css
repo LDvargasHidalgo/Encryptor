@@ -1,0 +1,64 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+
+body {
+    background-color: rgb(2, 53, 59);
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 40px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("Images/cryptomator-icono.png");
+    background-repeat: no-repeat;
+    background-position: 70px;
+    background-size: 180px;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.encriptar {
+    background-color: rgb(5, 5, 72);
+    color:white;
+    font-size: 25px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.copiar{
+    font-size: 25px;
+}
+
+.informacion {
+    font-size: 15px;
+}
